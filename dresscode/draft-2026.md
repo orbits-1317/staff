@@ -67,52 +67,43 @@
 
 ### Juni
 
-- 6 
-- 7 
+- 6 **「GEMOY DANCE」** roleplay menjadi Paman & Bibi dari setelan yang didapatkan di Speaker Event.
+- 7 **「GEMINI ZODIAC」** ekspresikan karakter zodiak Gemini dengan pakaian berwarna biru muda.
+
 ---
 - 13 **「GRAND VOWS」** kenakan gaun pengantin dan jas formal. Tampil elegan dalam nuansa pesta pernikahan yang sakral dan penuh kemewahan.
-- 14
+- 14 **「TRAVELER」** saatnya mengunjungi berbagai destinasi wisata populer sebagai turis berpakaian santai. Jangan lupa bawa kamera, kacamata hitam, dan tas selempang untuk melengkapi gaya liburanmu.
+
 --- 
-- 20 
+- 20 **「EFFORTLESS」** panggilan kepada kaum rebahan, bebaskan gayamu tanpa pusing memikirkan aturan pakaian, kini saatnya tampil apa adanya:D
 - 21 **「SUMMER SPLASH」** tampil berani dengan pakaian renang atau celana pendek tropis. Bersiaplah untuk percikan air yang penuh energi bersama teman-teman di tengah pesta kolam!
+
 ---
 - 27 **「DEMONIC ERA」** tunjukkan wujud entitas kegelapanmu dengan atribut tanduk atau sayap. Ekspresikan wibawa penguasa yang haus jiwa dalam era kehancuran.
 - 28 **「NIGHT ASSASSIN」** kenakan jubah bertudung dan masker gelap. Tampil misterius dengan senjata tersembunyi, siap menyelinap dalam bayangan untuk misi rahasia.
 
+### Juli
 
- **Traveler/adventure trip**
+4 ADVENTURE TRIP
+5 CANCER ZODIAC
+11 BACK TO SCHOOL 
+12 GALA DINNER
+18 VINTAGE
+19 RAINBOW
+25 PLAYDATE/FAMILY
+26 PICNIC
+
+*   **17 Juli:** Hari Keadilan Internasional
+*   **23 Juli:** Hari Anak Nasional
+*   **30 Juli:** Hari Persahabatan Sedunia
 
 **「PHOENIX」**
 Gunakan warna merah, jingga, dan kuning. Simbol semangat kebangkitan yang membara dan penuh energi.
 
-**「GEMINI ZODIAC」**
-Ekspresikan karakter zodiak Gemini dengan pakaian berwarna biru muda.
-
-
-
-
-
-
-
-
-
-### Juli
-
-4  **Cancer**  
-5  
-11  **Back to School**  
-12  ****  
-18  
-19  
-25  
-26  ****
-
-
-
 ### Agustus
 
-1 Leo    
-2    
+1 
+2 LEO ZODIAC
 8  
 9  
 15  
