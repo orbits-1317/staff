@@ -18,39 +18,40 @@ Selamat datang di pusat dokumentasi dan manajemen kerja staff ORBITS. Repositori
 
 ---
 
-### 1. Administration
+### 1. Administration `adm`
 Panduan dasar bagi staff dan data keanggotaan.
-*   **Keanggotaan:** [Daftar Anggota Aktif]()
-*   **Panduan Kerja:** [Panduan Penggunaan Markdown](./administration/guidelines/20241205-panduan-penggunaan.md)
-*   **Kamus Komunikasi:** [Katalog Kode Emoji](./administration/emoji-dictionary.md)
+*   [**Keanggotaan**](#)
+*   [**Panduan Penggunaan Markdown**](./adm/panduan-penggunaan.md)
+*   [**Katalog Emoji**](./adm/emoji-dictionary.md)
 
 ---
 
-### 2. Schedule
-Pusat pengaturan jadwal tayang program kerja beserta detail koordinasi setiap Host.
-*   **Jadwal Utama:** [Schedule ORBITS](./docs/schedule.md)
-*   **Koordinasi Konten:** [Detail Program Jokes Bapack-Bapack](./docs/schedule/11-J0K3S-BaPack-BaPack.md)
-
----
-
-### 3. Dresscode
+### 2. Dresscode `dcd`
 Seluruh dokumen divisi kreatif untuk mengatur penampilan kru.
-*   **Tahun Berjalan:** [Panduan Dresscode 2026](./dresscode/2026.md)
-*   **Referensi & Gaya:** [Arsip Dresscode 2025](./dresscode/2025.md), [Lookbook Visual v1](./dresscode/lookbook-01.md)
-*   **Tema & Analisis:** [Laporan Kreatif](./dresscode/report.md), [Tema Musiman](./dresscode/season.md), [Tema Zodiak](./dresscode/zodiac.md)
-*   **Penanggalan:** [Kalender Produksi](./dresscode/calendar.md)
+*   [**Panduan Dresscode 2026**](./dcd/2026.md)
+*   [**Arsip Dresscode 2025**](./dcd/2025.md)
+*   [**Referensi & Gaya**](./dcd/lookbook-01.md)
+    *   [**Laporan Kreatif**](./dcd/report.md), 
+    *   [**Tema Musiman**](./dcd/season.md),
+    *   [**Tema Zodiak**](./dcd/zodiac.md)
+    *   [**Kalender Produksi**](./dcd/calendar.md)
 
 ---
 
-### 4. Editorial
+### 3. Editorial `edt`
 Tempat artikel publikasi, dan materi literatur yang sedang dikembangkan.
-*   **Daftar Artikel:** [Koleksi Artikel Utama](./editorial/)
-*   **Ruang Draf:** [Draf Penulisan Artikel](./editorial/drafts/)
+*   [**Daftar Artikel**](#)
+*   [**Draf Penulisan Artikel**](./edt/drafts/)
 
 ---
 
-### 5. Archive
+### 4. Archive `arc`
 Gudang penyimpanan untuk berkas-berkas lama dan data pencadangan (*backup*).
-*   **Indeks Lama:** [Index (05/12/2024)](./archive/20241205-1317-INDEX.md)
-*   **Dokumentasi Lama:** [Readme (05/12/2024)](./archive/20241205-1317-README.md)
-*   **Berita Lama:** [News (06/12/2024)](./archive/20241206-1317-NEWS.md)
+*   [**Web Orbits**](https://orbits-1317.github.io) `web`
+    *   [**Indeks** (05122024)](./arc/web-INDEX.md)
+    *   [**Dokumentasi** (05122024)](./arc/web-README.md)
+    *   [**Berita** (06122024)](./arc/web-NEWS.md)
+*   [**Schedule**](./arc/schedule.md) `sch`
+    * [**Jokes Bapack-Bapack**](./arc/sch-program/jokes-bapack-bapack.md)
+
+---
