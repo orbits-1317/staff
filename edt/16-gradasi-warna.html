@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>16 Gradasi Warna Game (Triple Bracket)</title>
+  <style>
+  * {box-sizing: border-box;margin: 0;padding: 0;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+  body {background-color: #0f172a;color: #f8fafc;padding: 30px 15px;display: flex;flex-direction: column;align-items: center;}
+  h1 {margin-bottom: 10px;font-size: 1.8rem;text-align: center;color: #38bdf8;}
+  p.credit {margin-bottom: 30px;font-size: 0.75rem;color: #64748b;text-align: center;text-transform: uppercase;letter-spacing: 0.5px;font-weight: 600;}
+  .container {width: 100%;max-width: 850px;display: flex;flex-direction: column;gap: 20px;}
+  .card {background-color: #1e293b;border-radius: 12px;padding: 20px;box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);border: 1px solid #334155;}
+  .card-title {font-size: 1.1rem;font-weight: 600;margin-bottom: 12px;color: #e2e8f0;}
+  .color-bar {width: 100%;height: 35px;border-radius: 8px;margin-bottom: 15px;box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);}
+  .code-box {background-color: #090d16;border-radius: 6px;padding: 12px;border: 1px solid #1e293b;position: relative;overflow-x: auto;margin-bottom: 12px;}
+  .code-box code {font-family: 'Consolas', 'Courier New', Courier, monospace;font-size: 0.82rem;color: #38bdf8;white-space: nowrap;word-break: break-all;}
+  .result-box {background-color: #0b1329;border-radius: 6px;padding: 12px;border: 1px dashed #334155;display: flex;align-items: center;gap: 12px;}
+  .result-label {font-size: 0.75rem;color: #64748b;text-transform: uppercase;letter-spacing: 0.5px;font-weight: 600;}
+  .result-text {font-weight: 800;font-size: 1.15rem;letter-spacing: 0.5px;white-space: pre-wrap;}
+  .bar-1  { background: linear-gradient(to right, #B8E1FF, #B8C0FF, #D6BBFF, #E8AEFF, #FFC6FF); }
+  .bar-2  { background: linear-gradient(to right, #FFB7B2, #FFDAC1, #FFE5D9, #FFCAD4, #F4ACB7); }
+  .bar-3  { background: linear-gradient(to right, #A8E6CF, #DCEDC8, #FFD3B6, #FFAAA5, #FF8B94); }
+  .bar-4  { background: linear-gradient(to right, #6EE7B7, #7DD3FC, #C4B5FD, #F472B6, #FB7185); }
+  .bar-5  { background: linear-gradient(to right, #046A38, #009A44, #10B981, #34D399, #86EFAC); }
+  .bar-6  { background: linear-gradient(to right, #00F0FF, #FF007F, #FFE600, #00FF66, #9D00FF); }
+  .bar-7  { background: linear-gradient(to right, #4C1D95, #6D28D9, #8B5CF6, #C084FC, #F0ABFC); }
+  .bar-8  { background: linear-gradient(to right, #67E8F9, #06B6D4, #0284C7, #0369A1, #0C4A6E); }
+  .bar-9  { background: linear-gradient(to right, #F59E0B, #F97316, #EF4444, #DC2626, #991B1B); }
+  .bar-10 { background: linear-gradient(to right, #312E81, #4338CA, #6366F1, #38BDF8, #2DD4BF); }
+  .bar-11 { background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF); }
+  .bar-14 { background: linear-gradient(to right, #7D00FF, #0000FF, #00AF5F, #00FF5F, #B8860B); }
+  .bar-13 { background: linear-gradient(to right, #FF0055, #FF5000, #FFCC00, #00E5FF, #7A00FF); }
+  .bar-12 { background: linear-gradient(to right, #DC3545, #FFC107, #198754, #0DCAF0, #0D6EFD); }
+  .bar-15 { background: linear-gradient(to right, #00FF00, #00FFFF, #007FFF, #8000FF, #FF00FF); }
+  .bar-16 { background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0, #7B68EE, #EE82EE); }
+
+  .res-11  { background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .res-14  { background: linear-gradient(to right, #7D00FF, #0000FF, #00AF5F, #00FF5F, #B8860B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .res-13  { background: linear-gradient(to right, #FF0055, #FF5000, #FFCC00, #00E5FF, #7A00FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .res-12  { background: linear-gradient(to right, #DC3545, #FFC107, #198754, #0DCAF0, #0D6EFD); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .res-15  { background: linear-gradient(to right, #00FF00, #00FFFF, #007FFF, #8000FF, #FF00FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .res-16 { background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0, #7B68EE, #EE82EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 1. Soft Pastel -->
+        <div class="card">
+            <div class="card-title">1. Soft Pastel (Sky to Lilac)</div>
+            <div class="color-bar bar-1"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][B8E1FF[B8E1FF[B8E1FF]]]Sa[B8C0FF[B8C0FF[B8C0FF]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [D6BBFF[D6BBFF[D6BBFF]]]Ji[E8AEFF[E8AEFF[E8AEFF]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [FFC6FF[FFC6FF[FFC6FF]]]Sa[E8AEFF[E8AEFF[E8AEFF]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [D6BBFF[D6BBFF[D6BBFF]]]Orb[B8C0FF[B8C0FF[B8C0FF]]]it[B8E1FF[B8E1FF[B8E1FF]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #B8E1FF;">Sa</span><span style="color: #B8C0FF;">tu</span> <span style="color: #D6BBFF;">Ji</span><span style="color: #E8AEFF;">wa,</span> <span style="color: #FFC6FF;">Sa</span><span style="color: #E8AEFF;">tu</span> <span style="color: #D6BBFF;">Orb</span><span style="color: #B8C0FF;">it</span><span style="color: #B8E1FF;">s</span></span>
+            </div>
+        </div>
+        <!-- 2. Soft Pink Pastel -->
+        <div class="card">
+            <div class="card-title">2. Soft Pink Pastel</div>
+            <div class="color-bar bar-2"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][FFB7B2[FFB7B2[FFB7B2]]]Sa[FFDAC1[FFDAC1[FFDAC1]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FFE5D9[FFE5D9[FFE5D9]]]Ji[FFCAD4[FFCAD4[FFCAD4]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [F4ACB7[F4ACB7[F4ACB7]]]Sa[FFCAD4[FFCAD4[FFCAD4]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FFE5D9[FFE5D9[FFE5D9]]]Orb[FFDAC1[FFDAC1[FFDAC1]]]it[FFB7B2[FFB7B2[FFB7B2]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #FFB7B2;">Sa</span><span style="color: #FFDAC1;">tu</span> <span style="color: #FFE5D9;">Ji</span><span style="color: #FFCAD4;">wa,</span> <span style="color: #F4ACB7;">Sa</span><span style="color: #FFCAD4;">tu</span> <span style="color: #FFE5D9;">Orb</span><span style="color: #FFDAC1;">it</span><span style="color: #FFB7B2;">s</span></span>
+            </div>
+        </div>
+        <!-- 3. Pastel Rainbow Classic -->
+        <div class="card">
+            <div class="card-title">3. Pastel Rainbow Classic</div>
+            <div class="color-bar bar-3"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][A8E6CF[A8E6CF[A8E6CF]]]Sa[DCEDC8[DCEDC8[DCEDC8]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FFD3B6[FFD3B6[FFD3B6]]]Ji[FFAAA5[FFAAA5[FFAAA5]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [FF8B94[FF8B94[FF8B94]]]Sa[FFAAA5[FFAAA5[FFAAA5]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FFD3B6[FFD3B6[FFD3B6]]]Orb[DCEDC8[DCEDC8[DCEDC8]]]it[A8E6CF[A8E6CF[A8E6CF]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #A8E6CF;">Sa</span><span style="color: #DCEDC8;">tu</span> <span style="color: #FFD3B6;">Ji</span><span style="color: #FFAAA5;">wa,</span> <span style="color: #FF8B94;">Sa</span><span style="color: #FFAAA5;">tu</span> <span style="color: #FFD3B6;">Orb</span><span style="color: #DCEDC8;">it</span><span style="color: #A8E6CF;">s</span></span>
+            </div>
+        </div>
+        <!-- 4. Medium Vibrant Pastel -->
+        <div class="card">
+            <div class="card-title">4. Vibrant Pastel Pop (Mint to Coral)</div>
+            <div class="color-bar bar-4"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][6EE7B7[6EE7B7[6EE7B7]]]Sa[7DD3FC[7DD3FC[7DD3FC]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [C4B5FD[C4B5FD[C4B5FD]]]Ji[F472B6[F472B6[F472B6]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [FB7185[FB7185[FB7185]]]Sa[F472B6[F472B6[F472B6]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [C4B5FD[C4B5FD[C4B5FD]]]Orb[7DD3FC[7DD3FC[7DD3FC]]]it[6EE7B7[6EE7B7[6EE7B7]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #6EE7B7;">Sa</span><span style="color: #7DD3FC;">tu</span> <span style="color: #C4B5FD;">Ji</span><span style="color: #F472B6;">wa,</span> <span style="color: #FB7185;">Sa</span><span style="color: #F472B6;">tu</span> <span style="color: #C4B5FD;">Orb</span><span style="color: #7DD3FC;">it</span><span style="color: #6EE7B7;">s</span></span>
+            </div>
+        </div>
+        <!-- 5. Monokromatik Emerald Green -->
+        <div class="card">
+            <div class="card-title">5. Monokromatik Emerald (Deep Green to Neon Lime)</div>
+            <div class="color-bar bar-5"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][046A38[046A38[046A38]]]Sa[009A44[009A44[009A44]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [10B981[10B981[10B981]]]Ji[34D399[34D399[34D399]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [86EFAC[86EFAC[86EFAC]]]Sa[34D399[34D399[34D399]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [10B981[10B981[10B981]]]Orb[009A44[009A44[009A44]]]it[046A38[046A38[046A38]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #046A38;">Sa</span><span style="color: #009A44;">tu</span> <span style="color: #10B981;">Ji</span><span style="color: #34D399;">wa,</span> <span style="color: #86EFAC;">Sa</span><span style="color: #34D399;">tu</span> <span style="color: #10B981;">Orb</span><span style="color: #009A44;">it</span><span style="color: #046A38;">s</span></span>
+            </div>
+        </div>
+        <!-- 6. Neon Cyberpunk -->
+        <div class="card">
+            <div class="card-title">6. Neon Cyberpunk (Cyan to Pink)</div>
+            <div class="color-bar bar-6"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][00F0FF[00F0FF[00F0FF]]]Sa[FF007F[FF007F[FF007F]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FFE600[FFE600[FFE600]]]Ji[00FF66[00FF66[00FF66]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [9D00FF[9D00FF[9D00FF]]]Sa[00F0FF[00F0FF[00F0FF]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [FF007F[FF007F[FF007F]]]Orb[FFE600[FFE600[FFE600]]]it[00FF66[00FF66[00FF66]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #00F0FF;">Sa</span><span style="color: #FF007F;">tu</span> <span style="color: #FFE600;">Ji</span><span style="color: #00FF66;">wa,</span> <span style="color: #9D00FF;">Sa</span><span style="color: #00F0FF;">tu</span> <span style="color: #FF007F;">Orb</span><span style="color: #FFE600;">it</span><span style="color: #00FF66;">s</span></span>
+            </div>
+        </div>
+        <!-- 7. Monokromatik Violet Glow -->
+        <div class="card">
+            <div class="card-title">7. Monokromatik Violet (Deep Purple to Magenta Glow)</div>
+            <div class="color-bar bar-7"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][4C1D95[4C1D95[4C1D95]]]Sa[6D28D9[6D28D9[6D28D9]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [8B5CF6[8B5CF6[8B5CF6]]]Ji[C084FC[C084FC[C084FC]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [F0ABFC[F0ABFC[F0ABFC]]]Sa[C084FC[C084FC[C084FC]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [8B5CF6[8B5CF6[8B5CF6]]]Orb[6D28D9[6D28D9[6D28D9]]]it[4C1D95[4C1D95[4C1D95]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #4C1D95;">Sa</span><span style="color: #6D28D9;">tu</span> <span style="color: #8B5CF6;">Ji</span><span style="color: #C084FC;">wa,</span> <span style="color: #F0ABFC;">Sa</span><span style="color: #C084FC;">tu</span> <span style="color: #8B5CF6;">Orb</span><span style="color: #6D28D9;">it</span><span style="color: #4C1D95;">s</span></span>
+            </div>
+        </div>
+        <!-- 8. Monokromatik Ocean Cyan -->
+        <div class="card">
+            <div class="card-title">8. Monokromatik Ocean (Bright Cyan to Deep Navy)</div>
+            <div class="color-bar bar-8"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][67E8F9[67E8F9[67E8F9]]]Sa[06B6D4[06B6D4[06B6D4]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [0284C7[0284C7[0284C7]]]Ji[0369A1[0369A1[0369A1]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [0C4A6E[0C4A6E[0C4A6E]]]Sa[0369A1[0369A1[0369A1]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [0284C7[0284C7[0284C7]]]Orb[06B6D4[06B6D4[06B6D4]]]it[67E8F9[67E8F9[67E8F9]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #67E8F9;">Sa</span><span style="color: #06B6D4;">tu</span> <span style="color: #0284C7;">Ji</span><span style="color: #0369A1;">wa,</span> <span style="color: #0C4A6E;">Sa</span><span style="color: #0369A1;">tu</span> <span style="color: #0284C7;">Orb</span><span style="color: #06B6D4;">it</span><span style="color: #67E8F9;">s</span></span>
+            </div>
+        </div>
+        <!-- 9. Warm Sunset -->
+        <div class="card">
+            <div class="card-title">9. Warm Sunset (Amber to Crimson Red)</div>
+            <div class="color-bar bar-9"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][F59E0B[F59E0B[F59E0B]]]Sa[F97316[F97316[F97316]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [EF4444[EF4444[EF4444]]]Ji[DC2626[DC2626[DC2626]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [991B1B[991B1B[991B1B]]]Sa[DC2626[DC2626[DC2626]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [EF4444[EF4444[EF4444]]]Orb[F97316[F97316[F97316]]]it[F59E0B[F59E0B[F59E0B]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #F59E0B;">Sa</span><span style="color: #F97316;">tu</span> <span style="color: #EF4444;">Ji</span><span style="color: #DC2626;">wa,</span> <span style="color: #991B1B;">Sa</span><span style="color: #DC2626;">tu</span> <span style="color: #EF4444;">Orb</span><span style="color: #F97316;">it</span><span style="color: #F59E0B;">s</span></span>
+            </div>
+        </div>
+        <!-- 10. Cool Twilight -->
+        <div class="card">
+            <div class="card-title">10. Cool Twilight (Indigo to Soft Cyan)</div>
+            <div class="color-bar bar-10"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][312E81[312E81[312E81]]]Sa[4338CA[4338CA[4338CA]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [6366F1[6366F1[6366F1]]]Ji[38BDF8[38BDF8[38BDF8]]]wa,[FFFFFF[FFFFFF[FFFFFF]]] [2DD4BF[2DD4BF[2DD4BF]]]Sa[38BDF8[38BDF8[38BDF8]]]tu[FFFFFF[FFFFFF[FFFFFF]]] [6366F1[6366F1[6366F1]]]Orb[4338CA[4338CA[4338CA]]]it[312E81[312E81[312E81]]]s</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text"><span style="color: #312E81;">Sa</span><span style="color: #4338CA;">tu</span> <span style="color: #6366F1;">Ji</span><span style="color: #38BDF8;">wa,</span> <span style="color: #2DD4BF;">Sa</span><span style="color: #38BDF8;">tu</span> <span style="color: #6366F1;">Orb</span><span style="color: #4338CA;">it</span><span style="color: #312E81;">s</span></span>
+            </div>
+        </div>
+        <!-- 11. Pelangi -->
+        <div class="card">
+            <div class="card-title">11. Rainbow</div>
+            <div class="color-bar bar-11"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][FF0000[FF0000[FF0000]]]satu[FF7F00[FF7F00[FF7F00]]]jiw[FFFF00[FFFF00[FFFF00]]]asat[00FF00[00FF00[00FF00]]]uor[0000FF[0000FF[0000FF]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-11">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <!-- 12. Bootstrap -->
+        <div class="card">
+            <div class="card-title">12. Bootstrap Palette</div>
+            <div class="color-bar bar-12"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][DC3545[DC3545[DC3545]]]satu[FFC107[FFC107[FFC107]]]jiw[198754[198754[198754]]]asat[0DCAF0[0DCAF0[0DCAF0]]]uor[0D6EFD[0D6EFD[0D6EFD]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-12">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <!-- 13. Electric -->
+        <div class="card">
+            <div class="card-title">13. Electric Rainbow</div>
+            <div class="color-bar bar-13"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][FF0055[FF0055[FF0055]]]satu[FF5000[FF5000[FF5000]]]jiw[FFCC00[FFCC00[FFCC00]]]asat[00E5FF[00E5FF[00E5FF]]]uor[7A00FF[7A00FF[7A00FF]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-13">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <!-- 14. Deep RGB -->
+        <div class="card">
+            <div class="card-title">14. Deep Vibrant</div>
+            <div class="color-bar bar-14"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][7D00FF[7D00FF[7D00FF]]]satu[0000FF[0000FF[0000FF]]]jiw[00AF5F[00AF5F[00AF5F]]]asat[00FF5F[00FF5F[00FF5F]]]uor[B8860B[B8860B[B8860B]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-14">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <!-- 15. Neon Toxic -->
+        <div class="card">
+            <div class="card-title">15. Neon Toxic Acid</div>
+            <div class="color-bar bar-15"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][00FF00[00FF00[00FF00]]]satu[00FFFF[00FFFF[00FFFF]]]jiw[007FFF[007FFF[007FFF]]]asat[8000FF[8000FF[8000FF]]]uor[FF00FF[FF00FF[FF00FF]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-15">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <!-- 16. Sunset Neon -->
+        <div class="card">
+            <div class="card-title">16. Neon Sunset Vibrant</div>
+            <div class="color-bar bar-16"></div>
+            <div class="code-box">
+                <code>[b[b[b]]][c[c[c]]][FF0080[FF0080[FF0080]]]satu[FF8C00[FF8C00[FF8C00]]]jiw[40E0D0[40E0D0[40E0D0]]]asat[7B68EE[7B68EE[7B68EE]]]uor[EE82EE[EE82EE[EE82EE]]]bits..</code>
+            </div>
+            <div class="result-box">
+                <span class="result-label">Hasil:</span>
+                <span class="result-text res-16">satujiwasatuorbits..</span>
+            </div>
+        </div>
+        <p class="credit">★ O я в ι т ѕ ★</p>
+    </div>
+</body>
+</html>
