@@ -41,6 +41,7 @@ Seluruh dokumen divisi kreatif untuk mengatur penampilan kru.
 ### 3. Editorial `edt`
 Tempat artikel publikasi, dan materi literatur yang sedang dikembangkan.
 *   [**Daftar Artikel**](#)
+    *   [**Membuat Teks Gradasi Warna Pelangi (RGB)**](./edt/teks-gradasi.md)
 *   [**Draf Penulisan Artikel**](./edt/drafts/)
 
 ---
